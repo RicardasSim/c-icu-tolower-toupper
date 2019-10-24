@@ -110,7 +110,7 @@ int main()
         return 1;
     }
 
-    u_strFromUTF8(uStr, (length + 1) * sizeof *uStr, &retLength, testStr, strlen(testStr), &errorCode);
+    u_strFromUTF8(uStr, (length + 1) * sizeof *uStr, &retLength, testStr, -1, &errorCode);
 
     if(errorCode != U_ZERO_ERROR)
     {
