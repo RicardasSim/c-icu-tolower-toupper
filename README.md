@@ -1,5 +1,5 @@
-# c-icu-tolower-toupper
-trying to use icu u_strToLower(); u_strToUpper();
+# c ICU tolower-toupper
+trying to use ICU u_strToLower(); u_strToUpper();
 
 tested with Ubuntu-18.04.3 LTS (Bionic Beaver)
 
