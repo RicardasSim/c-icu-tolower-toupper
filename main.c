@@ -189,7 +189,7 @@ int main()
 
     if(errorCode != U_ZERO_ERROR && errorCode != U_BUFFER_OVERFLOW_ERROR)
     {
-        printf("ICU error: %s\n", u_errorName(errorCode) );
+        printf("Error: (ICU) %s\n", u_errorName(errorCode) );
         free(uStr);
         return 1;
     }
@@ -218,7 +218,7 @@ int main()
 
     if(errorCode != U_ZERO_ERROR)
     {
-        printf("ICU error: %s\n", u_errorName(errorCode) );
+        printf("Error: (ICU) %s\n", u_errorName(errorCode) );
         free(upperStr);
         free(uStr);
         return 1;
